@@ -1,0 +1,44 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "АРМ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "M.Khairutdinov",
+  "license": "ISC",
+  "dependencies": {
+    "chart": "^0.1.2",
+    "chart.js": "^2.9.3",
+    "chartjs": "^0.3.24",
+    "iconv": "^2.3.5",
+    "modbus-serial": "^7.7.3",
+    "mongodb": "^3.3.3",
+    "node-gyp": "^6.0.1",
+    "node-ipc": "^9.1.1",
+    "serialport": "^8.0.5"
+  },
+  "devDependencies": {
+    "electron": "^6.0.12",
+    "electron-builder": "^22.1.0"
+  },
+  "build": {
+    "productName": "ST",
+    "appId": "com.Stand",
+    "icon": "./build/icons/log.png",
+    "asar": true,
+    "directories": {
+      "output": "./build"
+    },
+    "win": {
+      "icon": "build/icons/icon.ico",
+      "requestedExecutionLevel": "requireAdministrator"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

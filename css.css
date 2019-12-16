@@ -1,0 +1,251 @@
+
+
+.mainDiv {
+    position:absolute; 
+    top:0px; 
+    left:0px; 
+    width:99.92%; 
+    height:99.8%; 
+    
+}
+
+.sensor2 {
+    width: 110px;
+    height: 41px;
+    border-radius: 9px;
+    position: absolute;
+    user-select: none;
+    font-size: 9pt;
+    vertical-align: middle;
+    z-index: 0;
+    border: solid 1px;
+    
+}
+
+.sensor2Head {
+    background-color: azure;
+    width: 100%;
+    height: 45%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    font-size: 11pt;
+    color: dodgerblue;
+}
+
+.sensor2Body {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 55%;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: top;
+    font-size: 14pt;
+    font-style: italic;
+    color: azure;
+    border-bottom-left-radius : 9px;
+    border-bottom-right-radius : 9px;
+}
+
+.movable, .movableHead, .valve, .zd, .za {
+    outline: none
+}
+
+
+
+
+body {
+    cursor: default;
+    user-select: none;
+    background-color: lightgray;
+}
+button,
+button:active, 
+button:focus {
+    outline: none;
+}
+.buttons{
+    outline: none;
+    background: -moz-linear-gradient(#00BBD6, #EBFFFF);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+    padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.ZDFaceplate {
+    position: absolute; 
+    top:0px; 
+    left:0px; 
+    width:240px;
+    height:300px; 
+    border:solid 1px; 
+    background-color: silver;
+    transform: translate(-100%, 0%);
+}
+
+.AiFaceplate, .MbFaceplate {
+    position: absolute;
+    top : 0px;
+    left: 0px; 
+    width:240px;
+    height:294px; 
+    border:solid 1px; 
+    background-color: silver;
+    transform: translate(-100%, -100%);
+}
+
+.ZAFaceplate {
+    position: absolute; 
+    top:0px; 
+    left:0px; 
+    width:350px;
+    height:514px; 
+    border:solid 1px; 
+    background-color: silver;
+    transform: translate(-100%, 0%);
+}
+
+
+.closeZDFaceplate, .closeAiFaceplate, .closeZAFaceplate {
+    position: absolute;
+    right:5px;
+    top:2px;
+    border-radius: 9px;
+    color: red;
+    font-weight: 600;
+}
+
+.optZAFaceplate {
+    position: absolute;
+    right:35px;
+    top:2px;
+    border-radius: 9px;
+    color: red;
+}
+
+.closeAutorFaceplate {
+    position: absolute;
+    right:1px;
+    top:1px;
+    border-radius: 9px;
+    color: red;
+    font-weight: 600;
+    background-color: darkgreen;
+}
+
+.autorFaceplate {
+    position: absolute;
+    top: 0px;
+    left:0px;
+        border:solid 1px; 
+        width:0px; 
+        height:0px; 
+        background-color:chocolate;
+        border-radius: 9px;
+        transform: translate(-100%, 0%);
+        opacity: 0;
+}
+
+.trClass {
+    border: solid 2px red;
+    padding-left: 10px;
+    height: 30px;
+    
+}
+
+
+input:focus {
+    outline: solid 1px darkslateblue;
+
+}
+
+.unselectable {
+    user-select: none;
+    cursor:default
+}
+
+
+.Diag {
+    outline: none;
+}
+
+.cell1 {
+    width: 5%; 
+    text-align: center; 
+    font-weight: 600; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.cell2 {
+    width:15%; 
+    text-align: center; 
+    font-weight: 600; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.cell3 {
+    width:20%; 
+    text-align: center; 
+    font-weight: 600; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.cell4 {
+    width:35%; 
+    text-align: center; 
+    font-weight: 600; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.cell5 {
+    width:25%; 
+    text-align: center; 
+    font-weight: 600; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+a.button9 {
+    position: relative;
+    display: inline-block;
+    color: #777674;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+    user-select: none;
+    padding: 1em 2em;
+    outline: none;
+    border-radius: 3px / 100%;
+    background-image:
+     linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+     linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+     linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+     linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+     linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+     linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+    background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+  }
+  a.button9:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  }
+  a.button9:active {
+    top: 1px;
+  }
