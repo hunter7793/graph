@@ -21,7 +21,7 @@
     "serialport": "^8.0.5"
   },
   "devDependencies": {
-    "electron": "^6.0.12",
+    "electron": "^9.1.0",
     "electron-builder": "^22.1.0"
   },
   "build": {
